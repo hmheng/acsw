@@ -15,8 +15,7 @@ export class HomeComponent {
   public video: ElementRef;
   @ViewChild("canvas")
   public canvas: ElementRef;
-
-  public text: string = "This is so cool!";
+  
   public language: string = "zh";
   public ocrResult: string;
   public translatedText: string;

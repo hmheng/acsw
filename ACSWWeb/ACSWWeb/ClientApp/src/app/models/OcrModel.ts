@@ -9,18 +9,6 @@ export interface Line {
   words: Word[];
 }
 
-//export interface RecognitionResult {
-//  lines: Line[];
-//}
-
-//export interface OcrResponse {
-//  status: string;
-//  succeeded: boolean;
-//  failed: boolean;
-//  finished: boolean;
-//  recognitionResult: RecognitionResult;
-//}
-
 export interface Region {
   boundingBox: string;
   lines: Line[];
