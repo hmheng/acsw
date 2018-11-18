@@ -1,8 +1,8 @@
 import { Component, Inject, ViewChild, ElementRef } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { BlobUtilties } from '../utilities/BlobUtilities';
 import { TranslateService } from '../services/TranslateService';
 import { TranslateResponse } from '../models/TranslateModel';
-import { BlobUtilties } from '../utilties/BlobUtilities';
 import { OcrService } from '../services/OcrService';
 import { OcrResponse } from '../models/OcrModel';
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BlobUtilties } from '../utilties/BlobUtilities';
+import { BlobUtilties } from '../utilities/BlobUtilities';
 
 @Component({
   selector: 'app-home',

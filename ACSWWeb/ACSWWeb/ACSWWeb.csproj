@@ -33,7 +33,7 @@
     <None Remove="ClientApp\src\app\models\OcrService.ts" />
     <None Remove="ClientApp\src\app\models\TranslateModel.ts" />
     <None Remove="ClientApp\src\app\services\TranslateService.ts" />
-    <None Remove="ClientApp\src\app\utilties\BlobUtilities.ts" />
+    <None Remove="ClientApp\src\app\utilities\BlobUtilities.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,7 +42,7 @@
     <TypeScriptCompile Include="ClientApp\src\app\services\OcrService.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\models\TranslateModel.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\services\TranslateService.ts" />
-    <TypeScriptCompile Include="ClientApp\src\app\utilties\BlobUtilities.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\utilities\BlobUtilities.ts" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
