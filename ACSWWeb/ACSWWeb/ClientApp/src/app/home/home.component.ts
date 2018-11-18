@@ -11,8 +11,6 @@ import { OcrResponse } from '../models/OcrModel';
   templateUrl: './home.component.html',
 })
 export class HomeComponent {
-
-
   @ViewChild("video")
   public video: ElementRef;
   @ViewChild("canvas")
