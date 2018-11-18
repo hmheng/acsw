@@ -1,20 +1,20 @@
-export interface Word {
+class Word {
   boundingBox: number[];
   text: string;
 }
 
-export interface Line {
+class Line {
   boundingBox: number[];
   text: string;
   words: Word[];
 }
 
-export interface Region {
+class Region {
   boundingBox: string;
   lines: Line[];
 }
 
-export interface OcrResponse {
+export class OcrResponse {
   language: string;
   textAngle: number;
   orientation: string;
